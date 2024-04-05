@@ -202,7 +202,7 @@
     $results.style.display = "none";
     $input.value = "";
 
-    words = INITIAL_WORDS.toSorted(() => Math.random() - 0.5).slice(0, 1);
+    words = INITIAL_WORDS.toSorted(() => Math.random() - 0.5).slice(0, 32);
     currentTime = INITIAL_TIME;
 
     $time.textContent = currentTime;
